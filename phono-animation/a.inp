@@ -1,0 +1,38 @@
+10 10 1
+4
+2.463 4.269 10.0
+2 2 1
+1
+10
+W
+
+#Supercell_matrix in the lattice direction 
+#Number of atoms in square cell
+#Cell size
+#Supercell_matrix with a square cell
+#amplitude 
+#step
+#Choose to generate all files or some files. W: all files; S: some files, phonon information comes from phonopy; Z:some files, Input phonon spectrum information. 
+#If the previous line is S, this line is the index of desired wave vector, each path contains 51 wave vectors in band.yaml. For example:
+#3                                     #the number of q
+#1 10 50                               #index
+#If the previous line is Z, this line contains the specific information of the phonon. For example:
+#2                                     #the number of q
+#0.0000000 0.0000000 0.0000000         #q-position 
+#-0.0022109105                         #frequency                    
+#-0.00000000757428 -0.00000000000000
+#0.70710678118655 0.00000000000000
+#0.00000000000000 0.00000000000000     #atom 1, eigenvector
+#-0.00000000757428 0.00000000000000
+#0.70710678118655 0.00000000000000
+#0.00000000000000 0.00000000000000     #atom 2, eigenvector
+#0.0066000 0.0066000 0.0066000         #q-position 
+#0.1200360143                          #frequency
+#-0.00000000000000 0.00000000000000
+#0.00000000000000 0.00000000000027
+#0.70709143128784 0.00465916294195     #atom 1, eigenvector
+#0.00000000000000 -0.00000000000000
+#0.00000000000000 0.00000000000027 
+#0.70709143128784 0.00465916294195     #atom 2, eigenvector
+
+
